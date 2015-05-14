@@ -16,6 +16,7 @@ Multiple ready-to-use animations. (It's actually only one + a static rendering f
 ## Implementation examples
 
 [Working example](http://vantudor.github.io/my_work/livecircles/livecircles.html)
+
 Basic full example code:
 
     <!-- Canvas set as background-->
