@@ -1,5 +1,5 @@
 # liveCircles
-**Features:
+**Features:**
 
 Can't-make-it-simpler usage on multiple canvas elements on the same page.
 Easily changeable animations.
