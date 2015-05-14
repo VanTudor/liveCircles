@@ -13,8 +13,10 @@ Multiple ready-to-use animations. (It's actually only one + a static rendering f
 ## Prerequisites
 [Paper.js](https://github.com/paperjs/paper.js). I use 0.9.22 in my development process.
 
-## Full example
-In HTML:
+## Implementation examples
+
+[Working example](http://vantudor.github.io/my_work/livecircles/livecircles.html)
+Basic full example code:
 
     <!-- Canvas set as background-->
     <canvas id="myCanvas" style="position: absolute; z-index: -1; height: 100% !important; width: 100% !important;">
