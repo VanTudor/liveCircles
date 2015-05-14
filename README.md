@@ -1,4 +1,8 @@
 # liveCircles
+
+A collection of easily interchangeable circles animations for the canvas element. Can also double as a stiff framework for developing new ones. Based on paper.js.
+
+
 **Features:**
 
 Can't-make-it-simpler usage on multiple canvas elements on the same page.
