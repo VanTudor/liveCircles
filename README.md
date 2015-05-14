@@ -39,7 +39,7 @@ In HTML:
     
 **Usage**
 
-var x = new canvasInstance(...);
+    var x = new canvasInstance(...);
 
 **Parameters:**
 
