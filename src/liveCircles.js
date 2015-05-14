@@ -138,8 +138,6 @@ var liveCircles = {
     *  sets instance.animationIndex
     */
     var load_default_animation = function(){
-      liveCircles.onFrameEventArray.push(liveCircles.animations.default_animation(privateMembers.objectCanvas));
-      that.animationIndex = liveCircles.onFrameEventArray.length - 1;
       that.currentAnimation = 'default_animation';
     }
 
@@ -157,10 +155,8 @@ var liveCircles = {
       load_default_animation();
       //runs selected animation onframe
       privateMembers.objectCanvas.projects[0].view.onFrame = function(event){
-        //console.log(that.currentAnimation);
         liveCircles.animations[that.currentAnimation](privateMembers.objectCanvas, numberOfCircles, commonAnimationResources);
       };
-      //console.log(privateMembers.objectCanvas.projects);
     }
 
     /*public*/
@@ -168,7 +164,6 @@ var liveCircles = {
     //changes the animation running its associated canvas
     this.changeCurrentAnimation = function(animationName){
       if(liveCircles.animations.hasOwnProperty(animationName)){
-//      liveCircles.onFrameEventArray[that.animationIndex] = liveCircles.animations[animationName](privateMembers.objectCanvas, numberOfCircles, commonAnimationResources);
         that.currentAnimation = animationName;
       }else{
         console.log('liveCircles Error: requested animation is not defined. Continuing with previous one.');
