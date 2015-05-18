@@ -38,7 +38,7 @@ var liveCircles = {
           var vector = animationResources.destination[i].subtract(item.position);
           //var speed = Math.floor((Math.random() * 100) + 100); //(bigger is slower)
           
-        var speed = Math.floor((Math.random() * 140) + 30); //(bigger is slower)
+        var speed = 30; //(bigger is slower)
           item.position = item.position.add(vector.divide(speed));
           // If the distance between the path and the destination is less
           // than 5, we define a new random point in the view to move the
