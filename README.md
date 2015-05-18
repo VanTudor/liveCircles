@@ -5,10 +5,10 @@ A collection of easily interchangeable circles animations for the canvas element
 
 **Features:**
 
-Can't-make-it-simpler usage on multiple canvas elements on the same page.
-Easily changeable animations.
-Easily definable circle size, colors and numbers.
-Multiple ready-to-use animations. (It's actually only one + a static rendering for now :D, sorry. But more will follow soon)
+1. Can't-make-it-simpler usage on multiple canvas elements on the same page.
+2. Easily changeable animations.
+3. Easily definable circle size, colors and numbers.
+4. Multiple ready-to-use animations. (It's actually only one + a static rendering for now :D, sorry. But more will follow soon)
 
 ## Prerequisites
 [Paper.js](https://github.com/paperjs/paper.js). I use 0.9.22 in my development process.
